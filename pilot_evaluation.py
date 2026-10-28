@@ -35,7 +35,7 @@ CRITICAL MANGLISH & LINGUISTIC RULES:
    - Judge stress based on the root emotion: "lega gila" -> Stress Score 1 (Very Low), whereas "stress gila" -> Stress Score 4 or 5.
 2. Routine Academic Updates: Informational posts about studying, submitting logbooks, or attending class without emotional distress (e.g., "Aku plan nak revise topic networking esok") MUST be classified as 'neutral' sentiment and Stress Score 2 (Low). Do NOT classify routine updates as 'negative'.
 3. Sentiment vs. Stress Decoupling: Evaluate sentiment tone and stress score independently. A student can express positive emotion (e.g., relief after passing) while having experienced stress, or negative emotion (e.g., boredom) with low academic stress.
-4. If a student explicitly expresses relief, achievement, gratitude, or optimism (e.g., 'faham', 'productive', 'practice helped', 'managed to rest'), classify sentiment as 'positive' even if the context involves academic work.
+4. Final Resolution & Growth Mindset Rule: Focus on the overall outcome or takeaway of the entry. If a student mentions pressure/mistakes but ends with relief, coping, progress, or optimism (e.g., "helped me spot a gap", "made it less heavy", "practice helped a lot", "managed to get rest"), classify sentiment as 'positive'. Do not let words like "pressure", "mistake", or "workload" force a negative tag if the student resolves it positively.
 
 EVALUATION RUBRIC:
 1. Sentiment: Exactly 'positive', 'neutral', or 'negative'.

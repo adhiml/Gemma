@@ -1,0 +1,451 @@
+sample_id,text,sentiment_label,ground_truth_stress_score,stress_score_label,context,language_style,source,annotation_note,predicted_sentiment,predicted_stress_score,predicted_confidence,raw_model_response,prediction_status,sentiment_correct,stress_score_absolute_error
+MS001,Aku stress gila sebab assignment semua due minggu ni.,negative,4,High,deadlines,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS002,I dah try buat report ni but still tak faham what lecturer wants.,negative,4,High,assignment,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS003,"Makin dekat exam makin panic lah, tak masuk langsung apa yang aku study.",negative,5,Very high,exams,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS004,"Groupmate aku hilang lagi, semua kerja aku kena cover.",negative,4,High,group work,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS005,"Penat gila balancing kelas, part time, dengan assignment.",negative,4,High,workload,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS006,"Aku rasa macam nak give up, banyak sangat benda kena settle.",negative,5,Very high,workload,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS007,"Deadline esok and my code still error, memang nak menangis.",negative,5,Very high,programming assignment,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS008,"Lecturer bagi extra task last minute, stress betul.",negative,4,High,workload,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS009,"Tak tidur sangat semalam sebab study, sekarang otak blank.",negative,5,Very high,exams,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS010,Aku takut fail subject ni sebab quiz aku teruk.,negative,4,High,grades,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS011,"Everyone macam dah faham topic ni except me, rasa bodoh pula.",negative,4,High,academic confidence,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS012,Presentation group minggu depan and aku takut kena judge.,negative,4,High,presentation,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS013,Aku kecewa sebab markah assignment tak macam yang aku expect.,negative,3,Moderate,grades,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS014,"Hari ni kelas back-to-back, penat and susah nak focus.",negative,3,Moderate,workload,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS015,I keep procrastinating then last minute kelam kabut.,negative,3,Moderate,procrastination,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS016,Tak best lah bila group discussion semua senyap je.,negative,3,Moderate,group work,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS017,Aku risau sebab belum start revision untuk test minggu depan.,negative,4,High,exams,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS018,"My lecturer's feedback was quite harsh, down sikit.",negative,3,Moderate,feedback,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS019,Rasa overwhelmed tengok semua benda dalam to-do list.,negative,5,Very high,workload,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS020,Aku malu nak tanya soalan sebab takut nampak clueless.,negative,4,High,class participation,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS021,"Assignment ni confusing lah, instructions dia macam tak clear.",negative,3,Moderate,assignment,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS022,Aku dah study dua jam tapi still tak boleh jawab soalan practice.,negative,4,High,exams,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS023,"Tak puas hati dengan result, rasa effort aku tak berbaloi.",negative,3,Moderate,grades,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS024,Aku annoyed sebab timetable berubah lagi.,negative,2,Low,timetable,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,2
+MS025,"Class tadi boring gila, susah nak stay awake.",negative,2,Low,class,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,2
+MS026,Aku nervous nak email supervisor pasal progress FYP.,negative,4,High,FYP,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS027,FYP progress slow sangat and aku takut tak sempat.,negative,4,High,FYP,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,0
+MS028,Aku rasa left out bila kawan-kawan buat study group tanpa aku.,negative,3,Moderate,social pressure,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS029,"Hari ni tak productive langsung, rasa frustrated dengan diri sendiri.",negative,3,Moderate,productivity,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS030,Aku tak suka bila orang compare CGPA aku dengan orang lain.,negative,3,Moderate,social pressure,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,1
+MS031,Aku ada lecture pukul 10 and tutorial lepas lunch.,neutral,2,Low,schedule,code-mixed,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS032,Assignment database kena submit hari Jumaat.,neutral,2,Low,deadline,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,False,2
+MS033,I studied chapter three for about one hour tadi.,neutral,2,Low,study,code-mixed,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS034,Group aku meeting dekat library petang ni.,neutral,2,Low,group work,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS035,Lecturer upload slides dekat portal malam tadi.,neutral,2,Low,class materials,code-mixed,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS036,Aku plan nak revise topic networking esok.,neutral,2,Low,study plan,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS037,There are two quizzes and one lab this week.,neutral,3,Moderate,assessment,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS038,Aku submit report dekat e-learning tadi.,neutral,2,Low,submission,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS039,My presentation slot is on Thursday morning.,neutral,2,Low,presentation,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS040,Esok aku ada consultation dengan supervisor.,neutral,2,Low,FYP,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS041,Aku tengah baca notes untuk chapter five.,neutral,2,Low,study,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS042,The group project has four members including me.,neutral,2,Low,group work,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS043,Aku dapat markah 72 untuk test tadi.,neutral,2,Low,grades,Manglish,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,0
+MS044,I need to print the report before class.,neutral,2,Low,assignment,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS045,Minggu depan ada lab session macam biasa.,neutral,2,Low,schedule,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS046,Aku belum decide nak study dekat library atau rumah.,neutral,2,Low,study plan,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS047,Our lecturer explained the rubric during class.,neutral,2,Low,assessment,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS048,Aku kena update progress FYP dalam logbook.,neutral,2,Low,FYP,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS049,The exam timetable was released this afternoon.,neutral,3,Moderate,exams,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS050,Aku ada tiga task yang perlu masuk dalam planner.,neutral,3,Moderate,workload,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS051,We divided the presentation slides among the team.,neutral,2,Low,group work,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS052,Aku nak tanya lecturer pasal format citation.,neutral,2,Low,assignment,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS053,The lab report requires a discussion section.,neutral,2,Low,assignment,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS054,Aku attend class online sebab hujan lebat.,neutral,2,Low,class,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS055,My consultation was moved from Tuesday to Wednesday.,neutral,2,Low,FYP,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS056,Aku tengah susun references ikut APA style.,neutral,2,Low,assignment,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS057,There is a make-up class next Monday.,neutral,2,Low,schedule,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS058,Aku buat revision timetable untuk minggu exam.,neutral,3,Moderate,exams,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS059,The project demo is scheduled for the end of the month.,neutral,3,Moderate,project,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS060,Aku check balik feedback yang lecturer bagi.,neutral,2,Low,feedback,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,0
+MS061,Finally faham recursion! lega gila.,positive,1,Very low,learning progress,code-mixed,synthetic_example,,positive,4,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,True,3
+MS062,Aku happy sebab dapat improve markah quiz kali ni.,positive,1,Very low,grades,Manglish,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS063,"We finished the group slides awal, teamwork memang okay.",positive,1,Very low,group work,code-mixed,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,1
+MS064,I was nervous tadi but the presentation went better than expected.,positive,4,High,presentation,code-mixed,synthetic_example,,positive,3,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 3,
+  ""confidence"": ""high""
+}",success,True,1
+MS065,"Dapat feedback yang helpful daripada supervisor, rasa motivated.",positive,1,Very low,FYP,code-mixed,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS066,"Aku dah settle satu assignment, tinggal dua lagi.",positive,3,Moderate,deadlines,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,1
+MS067,"Study session tadi productive gila, banyak topic covered.",positive,1,Very low,study,code-mixed,synthetic_example,,positive,3,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 3,
+  ""confidence"": ""high""
+}",success,True,2
+MS068,"Even though exam dekat, I feel more prepared now.",positive,3,Moderate,exams,code-mixed,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS069,Kawan aku explain topic ni and now baru nampak logic dia.,positive,1,Very low,peer support,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,1
+MS070,Aku proud sebab berani tanya soalan dalam class.,positive,1,Very low,class participation,Manglish,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS071,"The assignment was tough, but I managed to submit it on time.",positive,3,Moderate,assignment,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,1
+MS072,Rasa tenang sikit after I broke the work into small tasks.,positive,3,Moderate,coping,code-mixed,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS073,"Aku dapat start FYP chapter satu, at least dah ada progress.",positive,3,Moderate,FYP,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,1
+MS074,"Our group solved the bug together, best feeling lah.",positive,1,Very low,group work,code-mixed,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS075,"I got a lower mark than hoped, but now I know what to improve.",positive,3,Moderate,grades,English,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,False,1
+MS076,Seronok bila lecturer acknowledge effort kita.,positive,1,Very low,feedback,Manglish,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS077,"Aku masih banyak revision, but my plan feels manageable.",positive,3,Moderate,exams,code-mixed,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,1
+MS078,Today's class finally made the concept click for me.,positive,1,Very low,learning progress,English,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS079,"Aku anxious pasal presentation, tapi practice dengan kawan helped a lot.",positive,4,High,presentation,code-mixed,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,False,0
+MS080,"One task at a time lah, tak perlu settle semua malam ni.",positive,3,Moderate,coping,Manglish,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,1
+MS081,Aku rasa supported sebab counsellor bagi practical study tips.,positive,1,Very low,support,Manglish,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS082,"Despite the workload, I still managed to get enough rest.",positive,3,Moderate,workload,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,1
+MS083,Dah submit FYP proposal! lega and excited nak continue.,positive,1,Very low,FYP,code-mixed,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS084,"I made a mistake in the quiz, but it helped me spot a gap.",positive,3,Moderate,learning progress,English,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,False,1
+MS085,"Aku mula study awal this time, so tak kelam kabut sangat.",positive,1,Very low,study habits,code-mixed,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,1
+MS086,"Groupmate aku offered to help without me asking, appreciate it.",positive,1,Very low,peer support,code-mixed,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS087,"The exam is challenging, but I believe I can prepare step by step.",positive,3,Moderate,exams,English,synthetic_example,,neutral,2,high,"{
+  ""sentiment"": ""neutral"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,False,1
+MS088,Aku dah berani set boundaries bila group bagi kerja last minute.,positive,3,Moderate,group work,Manglish,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,False,1
+MS089,Happy lah sebab akhirnya dapat balance study dengan rest.,positive,1,Very low,wellbeing,Manglish,synthetic_example,,positive,2,high,"{
+  ""sentiment"": ""positive"",
+  ""stress_score"": 2,
+  ""confidence"": ""high""
+}",success,True,1
+MS090,"I still feel pressure, but talking to someone made it less heavy.",positive,3,Moderate,support,English,synthetic_example,,negative,4,high,"{
+  ""sentiment"": ""negative"",
+  ""stress_score"": 4,
+  ""confidence"": ""high""
+}",success,False,1
