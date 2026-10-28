@@ -1,0 +1,147 @@
+{
+    "configuration": {
+        "model": "gemma2:2b",
+        "system_prompt": "You are an AI analyzing diary entries and posts from Malaysian university students for a student well-being platform. \nThe text contains 'Manglish' (a mix of English, Bahasa Malaysia, and local slang).\n\nCRITICAL MANGLISH & LINGUISTIC RULES:\n1. \"Gila\" / \"Giler\" is an INTENSIFIER meaning \"extremely\", \"very\", or \"super\" (e.g., \"lega gila\" = super relieved, \"productive gila\" = super productive).\n   - \"Gila\" DOES NOT automatically imply high academic stress or crazy mental distress.\n   - Judge stress based on the root emotion: \"lega gila\" -> Stress Score 1 (Very Low), whereas \"stress gila\" -> Stress Score 4 or 5.\n2. Routine Academic Updates: Informational posts about studying, submitting logbooks, or attending class without emotional distress (e.g., \"Aku plan nak revise topic networking esok\") MUST be classified as 'neutral' sentiment and Stress Score 2 (Low). Do NOT classify routine updates as 'negative'.\n3. Sentiment vs. Stress Decoupling: Evaluate sentiment tone and stress score independently. A student can express positive emotion (e.g., relief after passing) while having experienced stress, or negative emotion (e.g., boredom) with low academic stress.\n\nEVALUATION RUBRIC:\n1. Sentiment: Exactly 'positive', 'neutral', or 'negative'.\n2. Academic Stress Score: An integer from 1 to 5 based on this rubric:\n   - 1 (Very low): Relaxed, relieved, happy, untroubled, or expressing satisfaction.\n   - 2 (Low): Normal academic tasks, routine updates, mild/manageable pressure.\n   - 3 (Moderate): Noticeable academic stress, worry, or difficulty coping.\n   - 4 (High): Strong stress affecting sleep, concentration, motivation, or daily functioning.\n   - 5 (Very high): Intense, severe, or overwhelming academic stress explicitly conveyed.\n\nReturn ONLY a valid JSON object with this exact structure:\n{\n  \"sentiment\": \"negative\",\n  \"stress_score\": 4,\n  \"confidence\": \"high\"\n}\n",
+        "input_csv": "safespace_manglish_sentiment_pilot_v3.csv"
+    },
+    "execution_summary": {
+        "total_examples": 90,
+        "valid_predictions": 90,
+        "failed_predictions": 0,
+        "completion_rate": 1.0
+    },
+    "sentiment_metrics": {
+        "accuracy": 0.7888888888888889,
+        "macro_f1": 0.7774576997560748,
+        "class_metrics": {
+            "positive": {
+                "precision": 0.9411764705882353,
+                "recall": 0.5333333333333333,
+                "f1": 0.6808510638297872
+            },
+            "neutral": {
+                "precision": 0.78125,
+                "recall": 0.8333333333333334,
+                "f1": 0.8064516129032258
+            },
+            "negative": {
+                "precision": 0.7317073170731707,
+                "recall": 1.0,
+                "f1": 0.8450704225352113
+            }
+        },
+        "confusion_matrix": [
+            [
+                16,
+                7,
+                7
+            ],
+            [
+                1,
+                25,
+                4
+            ],
+            [
+                0,
+                0,
+                30
+            ]
+        ]
+    },
+    "stress_score_metrics": {
+        "mae": 0.7222222222222222,
+        "rmse": 1.0165300454651272,
+        "exact_match_accuracy": 0.4,
+        "within_one_point_accuracy": 0.9111111111111111,
+        "confusion_matrix": [
+            [
+                0,
+                12,
+                0,
+                3,
+                0
+            ],
+            [
+                0,
+                21,
+                1,
+                5,
+                0
+            ],
+            [
+                0,
+                13,
+                1,
+                14,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                14,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                5,
+                0
+            ]
+        ]
+    },
+    "language_style_performance": {
+        "Manglish": {
+            "count": 41,
+            "sentiment_accuracy": 0.8048780487804879
+        },
+        "code-mixed": {
+            "count": 31,
+            "sentiment_accuracy": 0.8709677419354839
+        },
+        "English": {
+            "count": 18,
+            "sentiment_accuracy": 0.6111111111111112
+        }
+    },
+    "error_analysis_candidates": {
+        "large_stress_discrepancy": [
+            "MS024",
+            "MS025",
+            "MS032",
+            "MS053",
+            "MS054",
+            "MS061",
+            "MS067",
+            "MS085"
+        ],
+        "positive_sentiment_high_stress": [
+            "MS061",
+            "MS067"
+        ],
+        "negative_sentiment_low_stress": [],
+        "incorrect_sentiments": [
+            "MS032",
+            "MS043",
+            "MS048",
+            "MS053",
+            "MS054",
+            "MS063",
+            "MS066",
+            "MS069",
+            "MS071",
+            "MS075",
+            "MS077",
+            "MS079",
+            "MS080",
+            "MS082",
+            "MS084",
+            "MS085",
+            "MS087",
+            "MS088",
+            "MS090"
+        ],
+        "failed_predictions": []
+    }
+}

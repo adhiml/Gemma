@@ -1,0 +1,154 @@
+{
+    "configuration": {
+        "model": "gemma2:2b",
+        "system_prompt": "You are an AI analyzing diary entries and posts from Malaysian university students. \nThe text may contain 'Manglish' (a mix of English, Bahasa Malaysia, and local slang).\n\nAnalyze the text and provide two assessments:\n1. Sentiment: The overall emotional tone (must be exactly 'positive', 'neutral', or 'negative').\n2. Academic Stress Score: An integer from 1 to 5 based on this rubric:\n   - 1 (Very low): No clear indication of academic stress; relaxed or untroubled.\n   - 2 (Low): Mild academic pressure or concern that appears manageable.\n   - 3 (Moderate): Noticeable academic stress, worry, or difficulty coping.\n   - 4 (High): Strong academic stress affecting concentration, sleep, motivation, or daily functioning.\n   - 5 (Very high): Intense or overwhelming academic stress explicitly conveyed.\n   If there is insufficient information to infer stress, provide your best estimate based on the text without inventing details.\n\nReturn ONLY a valid JSON object with this exact structure:\n{\n  \"sentiment\": \"negative\",\n  \"stress_score\": 4,\n  \"confidence\": \"high\"\n}\n",
+        "input_csv": "safespace_manglish_sentiment_pilot_v3.csv"
+    },
+    "execution_summary": {
+        "total_examples": 90,
+        "valid_predictions": 90,
+        "failed_predictions": 0,
+        "completion_rate": 1.0
+    },
+    "sentiment_metrics": {
+        "accuracy": 0.8111111111111111,
+        "macro_f1": 0.8095975232198143,
+        "class_metrics": {
+            "positive": {
+                "precision": 1.0,
+                "recall": 0.7,
+                "f1": 0.8235294117647058
+            },
+            "neutral": {
+                "precision": 0.8148148148148148,
+                "recall": 0.7333333333333333,
+                "f1": 0.7719298245614035
+            },
+            "negative": {
+                "precision": 0.7142857142857143,
+                "recall": 1.0,
+                "f1": 0.8333333333333334
+            }
+        },
+        "confusion_matrix": [
+            [
+                21,
+                5,
+                4
+            ],
+            [
+                0,
+                22,
+                8
+            ],
+            [
+                0,
+                0,
+                30
+            ]
+        ]
+    },
+    "stress_score_metrics": {
+        "mae": 0.8444444444444444,
+        "rmse": 1.1254628677422756,
+        "exact_match_accuracy": 0.3333333333333333,
+        "within_one_point_accuracy": 0.8555555555555555,
+        "confusion_matrix": [
+            [
+                2,
+                10,
+                0,
+                3,
+                0
+            ],
+            [
+                6,
+                11,
+                0,
+                10,
+                0
+            ],
+            [
+                0,
+                9,
+                3,
+                16,
+                0
+            ],
+            [
+                0,
+                0,
+                1,
+                14,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                5,
+                0
+            ]
+        ]
+    },
+    "language_style_performance": {
+        "Manglish": {
+            "count": 41,
+            "sentiment_accuracy": 0.7560975609756098
+        },
+        "code-mixed": {
+            "count": 31,
+            "sentiment_accuracy": 0.9354838709677419
+        },
+        "English": {
+            "count": 18,
+            "sentiment_accuracy": 0.7222222222222222
+        }
+    },
+    "error_analysis_candidates": {
+        "large_stress_discrepancy": [
+            "MS024",
+            "MS025",
+            "MS032",
+            "MS034",
+            "MS036",
+            "MS043",
+            "MS048",
+            "MS053",
+            "MS056",
+            "MS060",
+            "MS061",
+            "MS067",
+            "MS083"
+        ],
+        "positive_sentiment_high_stress": [
+            "MS061",
+            "MS067",
+            "MS072",
+            "MS073",
+            "MS083",
+            "MS088"
+        ],
+        "negative_sentiment_low_stress": [],
+        "incorrect_sentiments": [
+            "MS032",
+            "MS034",
+            "MS036",
+            "MS043",
+            "MS048",
+            "MS053",
+            "MS056",
+            "MS060",
+            "MS066",
+            "MS069",
+            "MS075",
+            "MS077",
+            "MS079",
+            "MS080",
+            "MS082",
+            "MS084",
+            "MS090"
+        ],
+        "failed_predictions": []
+    }
+}
